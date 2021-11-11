@@ -1,0 +1,29 @@
+{
+  "name": "sockets.io",
+  "version": "1.0.0",
+  "description": "A very basic level example for sockets.io",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/humayonzafar/sockets.io.git"
+  },
+  "keywords": [],
+  "author": "Humayon Zafar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/humayonzafar/sockets.io/issues"
+  },
+  "homepage": "https://github.com/humayonzafar/sockets.io#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "socket.io": "^4.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
