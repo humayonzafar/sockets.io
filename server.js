@@ -13,7 +13,7 @@ io.on('connection', client => {
     });
 
     client.on('clearFeedBack', () => {
-        io.emit('clearFeedBack');
+        client.broadcast.emit('clearFeedBack');
     });
 
     client.on('typing', ({handle}) => {
